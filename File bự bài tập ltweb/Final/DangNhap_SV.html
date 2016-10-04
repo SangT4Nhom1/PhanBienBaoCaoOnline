@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Hỗ trợ báo cáo online, báo cáo onlie</title>
+
+    <!-- Bootstrap CSS -->
+  
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+
+    <!-- hiện logo trên tab -->
+    <link rel="icon" href="image/it_spkt.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="image/it_spkt.png"/>
+  </head>
+   <style type="text/css">
+            .example{
+                margin: 10px;
+            }
+            .col-center-block { 
+            float: none;    
+            display: block; 
+            margin-left: auto;  
+            margin-right: auto;
+            }
+             /* chỉnh khoảng cách khung tới thành phần bên trong */
+            .container {  
+          height: 100%;   
+          width: 105%;
+          }
+             /* chinh khung dang nhap */
+            .container {    
+            display: table; 
+            vertical-align: middle;
+            }
+             
+            .vertical-center-row {  
+            display: table-cell;    
+            vertical-align: middle;
+            }
+             
+            .login-screen-bg {  
+            background-color: #EFEFEF;
+            }
+             
+            .panel-git {    
+            border: 1px solid #d8dee2;
+            }
+            /* .panel-git .panel-heading { 
+            background-color: #829AA8; */
+            }
+             
+            .login-widget { 
+            padding: 10px;  
+            border-radius: 20px;    
+            padding: 15px;  
+           /* box-shadow: 0px 0px 1px 1px rgba(161, 159, 159, 0.1);  */ 
+            background-color: #E0F8F7;
+            }
+         
+        </style>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group" style="padding-left:700px">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="DangNhap_SV.html">Đăng Nhập</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!-- Phần Ảnh Logo -->
+    <div class="container" style="padding-left: 100px;"  >
+       <div id="logo" class="container-fluid">
+        <img src="image/Logo.jpg" height="163" width="713">
+      </div>
+      <hr  width="100%" size="3px" align="center" > 
+    </div>
+
+  <!-- Phần menu -->
+  <div class="container" style="padding-left: 100px;padding-right: 170px;">
+    <nav class="navbar navbar-inverse" role="navigation" >
+        
+          <div class="collapse navbar-collapse navbar-ex1-collapse" >
+            <ul class="nav navbar-nav" >
+              <li class="active"><a href="Home.html"><span class="glyphicon glyphicon-home"></span> Trang chủ</a></li>
+              <li ><a href=""><span class="glyphicon glyphicon-user"></span> Giới thiệu</a></li>
+              <li><a href=""><span class="glyphicon glyphicon-envelope"></span> Liên hệ</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">PHẢN BIỆN/BÁO CÁO</a></li>
+          </ul>
+          </div><!-- /.navbar-collapse -->
+    </nav>
+  </div>
+
+   </div>
+            <div class="container" style="padding-left: 0px;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            
+                 <div class="row vertical-center-row"> 
+                  <div class="col-md-5 col-center-block login-widget"> 
+                   <div class="panel panel-primary">
+                <div   class="panel-heading">
+                     <div class="panel-heading"><h4>ĐĂNG NHẬP</h4></div>
+                </div>
+                        <div class="panel-body">
+                               <label ><input type="radio" name="optradio" checked="check" ><a href="DangNhap_SV.html" >Sinh viên</a> </label>
+                    
+                    <label style="padding-left: 50px;" ><input type="radio" name="optradio"  ><a href="DangNhap_GV.html" >Giảng Viên</a> </label>
+
+                    <label style="padding-left: 50px;"><input type="radio" name="optradio" ><a href="DangNhap_TK.html" >Trưởng Khoa/Bộ Môn</a> </label>
+                  
+                   <!-- chỉnh text đăng nhập use -->
+                    <div class="form-group">
+                     <!-- <div class="input-group"> 
+                      <div class="input-group-addon"><i class="fa fa-user fa-fw"></i> -->
+                      </div> <input type="text" class="form-control" placeholder="User"> 
+                    <!--  </div> 
+                    </div>  -->
+
+                    <!-- chỉnh text đăng nhập password -->
+                    <div class="form-group">
+
+                    <!--  <div class="input-group"> -->
+                     <!--  <div class="input-group-addon"><i class="fa fa-key fa-fw"></i> --> <!-- chỉnh icon -->
+
+                      </div> <input type="password"  class="form-control" placeholder="password" required> 
+                     <!-- </div>  -->
+                  
+                    <!-- tạo nút nhớ thông tin -->
+                    <div class="form-group"> 
+                        <div class="checkbox"> <label for="c1"><input type="checkbox" id="c1" name="cc">Nhớ thông tin</label> 
+                        </div> 
+                    </div> 
+                    <!-- tạo button đăng nhập -->
+                    <div class="form-group" style="text-align:right"> 
+                    <a href="SV_home.html" class="btn btn-info" role="button" style="padding-right:10px;padding-left: 10px;" >Đăng nhập</a>
+                     <!-- <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>  -->
+                    </div> 
+                        </div>
+                  <div>
+                    <!-- thong báo 2 -->
+
+                   
+            </div>
+          </div>
+
+                 
+                   </div> 
+                  </div> 
+                 </div>
+                </div>
+  
+  </body>
+</html>
